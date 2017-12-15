@@ -16,25 +16,25 @@ Cenario: Validar input de caracteres campo Login
     Quando preencher o campo login
     Entao o campo deve aceitar caracteres de A-Z e numeros de 0-9
     
-Cenario: Validar Placeholder de Componente da tela - Login
+Cenário: Validar Placeholder de Componente da tela - Login
     Dado que estou na tela de login
     Entao o campo Login deve ter a o texto "CPF OU EMAIL" e o placeholder "Digite seu CPF ou E-mail" 
     
-Cenario: Validar Placeholder de Componente da tela - Senha
+Cenário: Validar Placeholder de Componente da tela - Senha
     Dado que estou na tela de login
     Entao o campo Senha deve ter a o texto "SENHA" e o placeholder "Digite sua senha" 
     
-Cenario: Validar input de caracteres invalidos campos login
+Cenário: Validar input de caracteres invalidos campos login
     Dado que estou na tela de login
     Quando preencher o campo login
     Entao o campo nao deve aceitar caracteres á,ã,ê,é,ç,õ,ó,!,#,%,ˆ,<,),*,+,="
 
-Cenario: Email invalido
+Cenário: Email invalido
     Dado que estou na tela de login
     Quando preencher o campo login com email sem @ e .com
     Entao a página deve marcar o campo com a mensagem "Email inválido"
 
-Cenario: CPF invalido
+Cenário: CPF invalido
     Dado que estou na tela de login
     Quando preencher o campo login com CPF invalido ex: 000.000.000.00
     Entao a página deve marcar o campo com a mensagem "CPF Inexistente"
@@ -67,12 +67,12 @@ Cenário: Login com usuário nao cadastrado
     Quando realizar o login com dados de usuário nao cadastrado
     Entao devo ver a mensagem "Usuario não Cadastrado"
     
-Cenario: Login Incorreta
+Cenário: Login Incorreta
     Dado que estou na tela de login
     Quando realizar a tentativa de acesso com email ou Cpf Incorretos
     Entao devo ver a mensagem "Login ou Senha inválidos - Tente novamente"
 
-Cenario: Senha Incorreta
+Cenário: Senha Incorreta
     Dado que estou na tela de login
     Quando realizar a tentativa de acesso com senha Incorreta
     Entao devo ver a mensagem "Login ou Senha inválidos - Tente novamente"
