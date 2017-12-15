@@ -7,11 +7,11 @@ Cenário: Mensagem de Tela de Login
     Dado que eu acesse o página de Login
     Entao devo ver a mensagem "Entre para ver sua solicitação de empréstimo"
     
-Cenario: Componentes na tela
+Cenário: Componentes na tela
     Dado que estou na tela de login
     Entao a tela deve conter um campo para login, um campo para senha, um botao "Entrar e o link "esqueci minha senha"
     
-Cenario: Validar input de caracteres campo Login
+Cenário: Validar input de caracteres campo Login
     Dado que estou na tela de login
     Quando preencher o campo login
     Entao o campo deve aceitar caracteres de A-Z e numeros de 0-9
